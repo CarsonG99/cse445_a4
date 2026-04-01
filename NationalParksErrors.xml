@@ -6,7 +6,7 @@
     <Phone>928-638-7496</Phone>
     <Phone>888-297-2757</Phone>
     <Phone>866-499-2574</Phone>
-    <Address NearestAirport="FlagStaff">
+    <Address>
       <Number>8</Number>
       <Street>S Entrance Road</Street>
       <City>Grand Canyon</City>
@@ -18,13 +18,12 @@
   <NationalPark>
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
-    <Address>
+    <Address NearestAirport="Jackson Hole Airport">
       <Number>2</Number>
       <Street>Old Faithful Loop Road</Street>
       <City>Yellowstone National Park</City>
       <State>WY</State>
       <Zip>82190</Zip>
-    </Address>
   </NationalPark>
 
   <NationalPark Rating="4.8">
@@ -42,6 +41,7 @@
 
   <NationalPark>
     <Name>Zion</Name>
+    <Phone>435-772-3256</Phone>
     <Address NearestAirport="St. George Regional Airport">
       <Number>1</Number>
       <Street>Zion Park Blvd</Street>
