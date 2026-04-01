@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NationalParks>
 
-  <!-- Park 1: Grand Canyon (assignment example) - Rating provided, multiple phones -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -16,7 +15,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 2: Yellowstone - Rating omitted (optional attribute absent) -->
   <NationalPark>
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -29,7 +27,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 3: Yosemite - Rating provided, multiple phones -->
   <NationalPark Rating="4.8">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -43,7 +40,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 4: Zion - Rating omitted -->
   <NationalPark>
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -56,7 +52,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 5: Rocky Mountain - Rating provided, multiple phones -->
   <NationalPark Rating="4.7">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
@@ -70,7 +65,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 6: Olympic - Rating omitted -->
   <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
@@ -83,7 +77,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 7: Acadia - Rating provided, multiple phones -->
   <NationalPark Rating="4.8">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
@@ -97,7 +90,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 8: Great Smoky Mountains - Rating omitted -->
   <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -110,7 +102,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 9: Glacier - Rating provided, multiple phones -->
   <NationalPark Rating="4.9">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
@@ -124,7 +115,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 10: Joshua Tree - Rating omitted -->
   <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
@@ -137,7 +127,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 11: Bryce Canyon - Rating provided, multiple phones -->
   <NationalPark Rating="4.8">
     <Name>Bryce Canyon</Name>
     <Phone>435-834-5322</Phone>
