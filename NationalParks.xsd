@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Root element -->
+  
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
-        <!-- One or more NationalPark elements -->
         <xs:element name="NationalPark" type="NationalParkType" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
 
-  <!-- NationalPark complex type -->
+
   <xs:complexType name="NationalParkType">
     <xs:sequence>
-      <!-- Name element (required, exactly once) -->
       <xs:element name="Name" type="xs:string"/>
-      <!-- Phone element (required, one or more allowed) -->
       <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-      <!-- Address element (required, exactly once) -->
       <xs:element name="Address" type="AddressType"/>
     </xs:sequence>
-    <!-- Rating: optional attribute on NationalPark -->
     <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
 
-  <!-- Address complex type -->
   <xs:complexType name="AddressType">
     <xs:sequence>
       <xs:element name="Number" type="xs:string"/>
@@ -34,7 +28,6 @@
       <xs:element name="State"  type="xs:string"/>
       <xs:element name="Zip"    type="xs:string"/>
     </xs:sequence>
-    <!-- NearestAirport: required attribute on Address -->
     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
